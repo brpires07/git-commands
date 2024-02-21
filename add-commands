@@ -1,0 +1,5 @@
+git add file_name
+--adicionar um novo arquivo
+
+git add . 
+--adicionar vários arquivos de uma vez
