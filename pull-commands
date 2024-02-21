@@ -1,0 +1,4 @@
+git fetch origin pull/id_issue_pullrequest_whatever/head:correcao_i2
+--Comando para criar um novo branch (correcao_i2) quando recebe um pedido de pull de 
+--um colaborador externo, considerando o id (id_issue_pullrequest_whatever - sem digitar o "#")
+--do pedido 
