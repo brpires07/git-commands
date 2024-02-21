@@ -1,0 +1,7 @@
+--Comandos utilizados para realizar troca de usuário em máquina que utilizam mais de um usuário git
+git config --unset credential.helper
+--Retira o usuário cadastrado 
+git config credential.helper store
+--Irá salvar os dados do usuário que se deseja usar
+git remote set-url origin https://user_name@github.com/user_name/project_name.git
+--Alterar o usuário na máquina considerando o projeto que se deseja acessar
